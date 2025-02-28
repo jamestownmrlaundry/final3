@@ -146,13 +146,7 @@ const ServicesPage = () => {
   });
   const [status, setStatus] = useState(null);
 
-  const openModal = (service) => {
-    setSelectedService(service);
-  };
 
-  const closeModal = () => {
-    setSelectedService(null);
-  };
 
   const toggleViewMode = () => {
     setViewMode(viewMode === "card" ? "table" : "card");
@@ -243,7 +237,7 @@ const ServicesPage = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <div className="logo">
-            <Image src="/logo-1.png" alt="Logo" width={90} height={80} />
+            <img src="/logo-1.png" alt="Logo" width={90} height={80} />
           </div>
         </div>
       </nav>
@@ -274,7 +268,7 @@ const ServicesPage = () => {
           <div className="service-grid">
             {allServices.length > 0 ? (
               allServices.map((service, index) => (
-                <div key={index} className="service-card" onClick={() => openModal(service)}>
+                <div key={index} className="service-card">
                   <div className="image-wrapper">
                     <img
                       src={service.img}
