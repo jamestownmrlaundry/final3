@@ -17,18 +17,7 @@ const Footer = () => {
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 sm-mb-30">
             <div className="footer__area-widget">
               <div className="footer__area-widget-about">
-                <div className="footer__area-widget-about-logo  p-3 rounded-lg inline-block mb-4">
-                  <Link href="/">
-                    <img
-                      layout="responsive"
-                      src={laundryLogo}
-                      alt="Company Logo"
-                      width={200}
-                      height={50}
-                      className="drop-shadow-sm"
-                    />
-                  </Link>
-                </div>
+      
                 <p className="text-gray-300 mb-4">{footerOne.description}</p>
                 <div className="footer__area-widget-about-social">
                   <Social />
