@@ -19,7 +19,7 @@ const Footer = () => {
               <div className="footer__area-widget-about">
                 <div className="footer__area-widget-about-logo  p-3 rounded-lg inline-block mb-4">
                   <Link href="/">
-                    <Image
+                    <img
                       layout="responsive"
                       src={laundryLogo}
                       alt="Company Logo"
