@@ -28,7 +28,7 @@ const HeaderThree = () => {
                 <div className="header__area-menubar-right-info">
                   <span>
                     <a>
-                      <i className="fal fa-map-marker-alt"></i>6385856384 James town
+                      <i className="fal fa-map-marker-alt"></i>+916385856384 James town juction (kaniyakumari-district)
                       
                     </a>
                   </span>
