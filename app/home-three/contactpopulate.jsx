@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaWhatsapp, FaPhoneAlt, FaTimes } from "react-icons/fa";
 
 const Contact = () => {
-  const phoneNumber = "6385856384";
+  const phoneNumber = "+916385856384";
   const whatsappLink = `https://wa.me/${phoneNumber}`;
 
   const [showBookingForm, setShowBookingForm] = useState(false);
