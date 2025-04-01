@@ -32,7 +32,7 @@ const Contact = () => {
 
     const formattedTime = `${formData.pickupHour}:${formData.pickupMinutes} ${formData.amPm}`;
 
-    const response = await fetch("https://formspree.io/f/manqpzgv", {
+    const response = await fetch("https://formspree.io/f/mkgjqwon", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ ...formData, pickupTime: formattedTime }),
