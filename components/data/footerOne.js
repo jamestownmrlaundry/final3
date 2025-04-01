@@ -13,8 +13,8 @@ const footerOne = {
     title_4: 'Office Info',
     office_des: '1234 Lake Tahoe Blvd, South Lake Tahoe , California USA',
     officeInfos: [
-        {link:'https://www.google.com/maps',info:'JamesTown Nagakovil',icon: <i className="fal fa-map-marked-alt"></i>},
-        {link:'mailto:Vinithvini725@gmail.com',info:'Vinithvini725@gmail.com',icon: <i className="fal fal fa-envelope-open-text"></i>},
+        {link:'https://www.google.com/maps',info:'JamesTown ,Jamestown Junction,Anjugramam,kaniyakumari(dist)-629401',icon: <i className="fal fa-map-marked-alt"></i>},
+        {link:'mailto:mrlaundryjamestown@gmail.com',info:'mrlaundryjamestown@gmail.com',icon: <i className="fal fal fa-envelope-open-text"></i>},
         {link:'tel:+125(895)658568',info:'6385856384',icon: <i className='fal fa-phone-alt'></i>}
     ],
   }
